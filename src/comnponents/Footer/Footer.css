@@ -1,0 +1,73 @@
+footer {
+  width: 100%;
+  height: 149px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px 30px 0px 0px;
+  padding: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Footer-label {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 25px;
+}
+nav {
+  width: 427px;
+  height: 82.8px;
+}
+ul {
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  align-content: space-between;
+}
+li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  text-decoration: none;
+  color: black;
+}
+li a:hover {
+  color: #ffa542;
+  cursor: pointer;
+}
+.Footer-lang {
+  display: flex;
+  width: 151px;
+  justify-content: space-between;
+  height: calc(100% - 43px);
+  align-items: end;
+}
+li:hover {
+  color: #ffa542;
+  cursor: pointer;
+}
+.Footer-lang-text {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18.29px;
+}
+.socialMediaWrapper {
+  width: 126px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialMediaWrapper > img {
+  width: 30px;
+}
+.socialMediaWrapper > img:hover {
+}

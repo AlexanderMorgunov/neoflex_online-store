@@ -1,0 +1,57 @@
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Layout-label {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 700;
+}
+.Layout-label a {
+  text-decoration: none;
+  color: black;
+}
+.Layout-label a:hover {
+  transition: all 0.5s;
+  color: #ffa542;
+}
+.Layout-iconMenuGroup {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.Layout-countCircle {
+  width: 17.4px;
+  height: 17.4px;
+  background-color: #ffa542;
+  border-radius: 100%;
+  position: relative;
+  bottom: 32px;
+  left: 16px;
+  text-align: center;
+  color: white;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18.29px;
+}
+.Layout-heart:hover {
+  cursor: pointer;
+}
+.Layout-shopping_cart:hover {
+  cursor: pointer;
+}
+.Layout-shopping_cart-sum {
+  position: relative;
+  top: 15px;
+  right: 20px;
+  color: black;
+  font-family: Montserrat;
+  font-size: 14px;
+}

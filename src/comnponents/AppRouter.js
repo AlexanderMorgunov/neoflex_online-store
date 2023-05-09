@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Spinner from "./Spinner/Spinner";
 import Layout from "./Layout/Layout";
 import Catalog from "../pages/Catalog/Catalog";
-import ShoppingСart from "../pages/ShoppingСart/ShoppingСart";
+import ShoppingCart from "../pages/ShoppingCart/ShoppingCart";
 
 const AppRouter = () => {
   return (
@@ -11,7 +11,7 @@ const AppRouter = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Catalog />}></Route>
-          <Route path="ShoppingСart" element={<ShoppingСart />}></Route>
+          <Route path="ShoppingCart" element={<ShoppingCart />}></Route>
         </Route>
         <Route path="*" element={<Catalog />}></Route>
       </Routes>

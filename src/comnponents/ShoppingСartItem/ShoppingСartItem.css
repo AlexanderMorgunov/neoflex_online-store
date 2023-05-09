@@ -1,0 +1,91 @@
+.ShoppingCartItemWrapper {
+  width: 633px;
+  height: 218px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 25px;
+}
+.ShoppingCartItemInfo {
+  display: flex;
+}
+.ShoppingCartItem-image {
+  max-width: 146px;
+  max-height: 136px;
+}
+.ShoppingCartItem-description-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  margin-left: 25px;
+}
+.ShoppingCartItem-description {
+  margin: 10px 0;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 17px;
+}
+.ShoppingCartItem-calc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ShoppingCartBtnGroup {
+  width: 125px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ShoppingCartBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background: #ffce7f;
+  cursor: pointer;
+  border: none;
+  color: #ffffff;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.horizontal-line {
+  width: 15px;
+  height: 2px;
+  background-color: white;
+}
+.vertical-line {
+  width: 15px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  transform: rotate(90deg);
+}
+.ShoppingCart-order-items {
+  display: grid;
+  gap: 25px;
+}
+.ShoppingCartItem-price {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 15px;
+  color: #aaaaaa;
+}
+.ShoppingCartItem-calc-total {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 15px;
+  color: #1c1c27;
+}
+.ShoppingCartItem-delete {
+  background-image: url("./../../../public/icons/delete.svg");
+  background-size: contain;
+  border: none;
+  background-color: #ffffff;
+  width: 20px;
+  height: 16px;
+  cursor: pointer;
+  position: relative;
+  left: 260px;
+}

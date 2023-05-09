@@ -1,0 +1,9 @@
+.Layout-wrapper {
+  width: 100%;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+}
+.Layout-container {
+  width: 1110px;
+}
