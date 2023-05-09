@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { BasketContext } from "../../providers/BasketProvider";
-import "./ShoppingСartItem.css";
+import "./ShoppingCartItem.css";
 
 const ShoppingCartItem = ({ img, title, price, count, id }) => {
   const { basket, setBasket } = useContext(BasketContext);

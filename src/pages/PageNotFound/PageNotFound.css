@@ -1,0 +1,23 @@
+.PageNotFound-wrapper {
+  width: 100%;
+  background-color: white;
+  height: calc(100vh - 229px);
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.PageNotFound-wrapper a {
+  text-decoration: none;
+  color: #ffa542;
+}
+.PageNotFound-wrapper a:hover {
+  color: black;
+  transition: all 0.5s;
+}

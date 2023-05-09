@@ -23,7 +23,7 @@ const Header = () => {
           <img src="./icons/shopping_cart.svg" alt="shopping_cart" />
           <div className="Layout-countCircle">
             {basket.reduce((sum, current) => sum + current.count, 0)}
-            <Link to={"ShoppingСart"}>
+            <Link to={"ShoppingCart"}>
               <div className="Layout-shopping_cart-sum">
                 {basket.length
                   ? basket.reduce(
